@@ -1,3 +1,10 @@
+
+/*  Decorator   */
+@font-face {
+    font-family: "bebasnue";
+    src: url("../assets/fonts/BebasNeue.otf");
+}
+
 :root {
     --vermelho: #E50914;
     --preto: #141414;
@@ -27,7 +34,7 @@ header .wrapper {
 header .logo {
     margin-left: 5px;
     color: var(--vermelho);
-    font-family: "Arial Black", Times;
+    font-family: bebasnue, "Arial Black", Times, serif;
     font-size: 40px;
 }
 
